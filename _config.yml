@@ -4,12 +4,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   My experiences in leading, building and transforming teams to deliver well-crafted software.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://martincronje.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: martincronje
-github_username:  martincronje
 
-# Build settings
-theme: minima
-#remote_theme: "mmistakes/minimal-mistakes"
+linkedin_username: mcronje
+github_username: martincronje
+
+#theme: minima
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+
+#theme: minimal-mistakes-jekyll
+
+header_pages:
+  index
 
 plugins:
   - jekyll-feed

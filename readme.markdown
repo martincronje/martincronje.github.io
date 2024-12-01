@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: martin.readme
 date: '2020-09-22 03:32:03'
+permalink: /readme
 ---
 
 ## Why?
