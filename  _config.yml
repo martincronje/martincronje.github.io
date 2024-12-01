@@ -8,6 +8,10 @@ twitter_username: martincronje
 github_username:  martincronje
 
 # Build settings
-theme: minima
+# theme: minima
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
