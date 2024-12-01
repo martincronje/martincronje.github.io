@@ -9,6 +9,7 @@ github_username:  martincronje
 
 # Build settings
 theme: minima
+#remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-feed
