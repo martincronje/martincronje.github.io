@@ -1,0 +1,96 @@
+---
+layout: post
+title: Arrrgh, business doesn't know what they want!
+date: '2014-07-25 06:09:00'
+---
+
+The most common problem software teams face is that they struggle to define stable unambiguous requirements for their software products. This is something I've observed in small start-ups of ten and multi-national organisations of tens-of-thousands.
+
+<!--Problem-->
+### The wrong hammer
+
+This issue typically, manifests by a high rate of features that are rejected during acceptance testing. When this happens teams typically rally and say that they need more detailed and explicit specifications/stories. In the instances that the teams end up creating more detailed stories, they typically find that the problem doesn't go away.
+
+This is because the problem does not lie with the specs, but rather the communication of the feature. The spec is merely a mechanism that the Product Owner (PO) uses to **communicate** their requirements. So it isn't that we need better specs it is that we need better communication.
+
+### So what's the problem really?
+
+When we started looking at communication between role players we found that in all cases the PO communicated **what** they wanted.
+
+Nothing wrong! Right?
+
+No! Most PO's typically rely on their intuition to communicating what they think the solution is as opposed to what the problem is. That is the software development equivalent of diagnosing yourself and telling your doctor that you need a kidney transplant!
+
+More subtly, developers don't really know what features are important because they don’t know what value the requirements add to the business. So not only do we build the wrong features but we end up building things that have little value.
+
+<!--Solution-->
+### Why? why? why? …
+
+So how do we fix it?
+
+The PO should communicate their problem and more importantly they should communicate how we would know when the problem was solved. This is very hard though, because for the first time the PO has to take time a think deeply about the problem and the related test.
+
+As a developer your best tool to guide them is to behave like a 5-year old and keep on asking the PO **why** they want something.
+
+#### Money
+
+This line of questioning should be structured to get to the money!
+
+All systems exist to either increase revenue or increase profitability (typically through increased efficiency). So structure the questions to guide the PO toward they money.
+
+_Example (what-driven):_
+
+    PO > We a report to track inventory!
+    Dev > What should the report contain
+    PO > Current stock levels of inventory in our warehouse.
+
+_Example (why-driven):_
+
+    PO > I want a report to track inventory!
+    Dev > Why? 
+    PO > I need to the report so that I can assess when I need
+          to order new stock or cancel existing orders depending
+          on market demand.
+    Dev > Why is that important?
+    PO > Too much stock means that the stock can perish and too
+          little stock means that we can satisfy demand.
+    Dev > You know we can build a "job" that send you an
+          notification once we hit certain thresholds and it will
+          probably cost less than the report.
+
+Do an experiment with a friend:
+
+    1) Why do we need to authenticate ourself in an online store 
+       if we don't do so in physical stores?
+    2) What value is there in creating a maintenance screen for
+       most lookup data in the system, especially things like
+       countries and cities.
+
+#### ...because it is your job
+
+This is also not easy because the PO may end up saying _"Why? Well, simple, it is your job!"_.
+
+This may become a hard conversation if you are dealing with a hostile Product Owner. Irrespective I typically use the above examples as a thought experiment to show them that we can come up with better and more cost-effective solutions if we analyse the problem together.
+
+#### How do we know we solved the problem?
+
+Once you established what the problem is and how it relates to money, you should proceed to the test. In this instance you should investigate what the desired outcome is given different pre-conditions.
+
+The scenario format "Given... when... then..." works very well for this.
+
+I'll explore good tests for another blog post.
+
+<!--Implications-->
+### In closing
+
+This tool has helped many of the teams I work with become more effective in analysing requirements.
+
+In fact, many of these teams abandoned traditional documentation completely and spend most of their energy getting to grips with the problem.
+
+<!--Considerations-->
+### Additional tips
+
+- Measure the amount of waste caused by rejected features.
+- Run mini-retrospectives after planning sessions to assess how the team can improve their specifications.
+- Challenge all your pre-conceptions of what _"doing it right"_ really means and allow yourself to continuously experiment with different ways of doing things.
+<!--kg-card-end: markdown-->

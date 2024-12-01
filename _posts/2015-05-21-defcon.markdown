@@ -1,0 +1,103 @@
+---
+layout: post
+title: DefCon! When things go wrong
+date: '2015-05-21 06:37:00'
+---
+
+A couple of weeks back one of my clients migrated thousands of users onto their platform and things went wrong badly. Everything worked, it was just to slow to support their needs. I’m not going to expand to much on the detail as I want to keep everyone anonymous.
+
+Once the dust settled we had a focussed retrospective during which we mapped out the good and bad events leading up to- and after the migration (a.k.a. “the bang”).
+
+Three very interesting things came to the fore:
+
+- The team did some innovative things leading up to “the bang” that improved their chance of success.
+- On the bad side, we noticed that the team had seen warning signs that things would go wrong.
+- The team reduced process fidelity as pressure mounted and especially once things went pear-shaped.
+
+This is not an isolated event.
+
+### The problem
+
+As I’ve working with teams to improve their effectiveness, I noticed that teams occasionally regress to their old ways when they are faced with challenging circumstances such as:
+
+- prolonged crisis like production outages or massive spike in user base, or
+- deadline that threatens the company’s existence such as compliance requirements.
+
+These are usually situations where the team has no choice but to “get shit done” with limited time and resources. _(Not the most ideal circumstances if you consider the project management triangle)_
+
+The worrying thing is that teams often drop process fidelity to handle these situations. Some of the things I’ve seen teams do include:
+
+- stopping stand-ups and retrospectives,
+- reducing planning sessions such as grooming and story mapping, or
+- bypassing engineering practices such as TDD and clean-up of legacy code.
+
+This is usually because of a combination of things;
+
+- they are more comfortable with the old way of doing things
+- they do not see the value in the added process overhead
+- most commonly, they simply feel that the process and practices are getting in the way of solving the problem.
+
+The result was that the teams became less coordinated and less effective during crisis situations. This leads to poor quality, long hours and even more crisis.
+
+We always used to encourage teams to hang onto their practices during these crisis situations and it always seemed to fall on deaf ears. We concluded that this was because they haven’t truly integrated the new practices and that it will be better next time.
+
+We were wrong… Well at least partly wrong.
+
+### The solution
+
+So back to the team in question.
+
+During the retrospective one of the team members observed that they became reactive where they needed to become more proactive. Another team member observed that they gave up on “Agile” (ouch).
+
+In other words their processes were not capable of supporting them during a crisis situation. In other words the rules seem to change. Based on the theme coming from the retrospective we explore two things
+
+- What should the practices look like when there is a crisis?
+- How do they get early warning on a crisis?
+
+_In a way this is similar to the concept of DefCon wherein which the US military alertness and ability to deploy increases with higher conditions of risk._
+
+We listed out two categories “Early warning” and “Crisis practices”.
+
+#### Early warning
+
+One of the goals with DefCon is that the team want to avoid it if they can. In order to do so they created a list of warning signs that would help them identify that a crisis is probable (risks) or imminent (issues):
+
+- Deadline set for a release.
+- There is ambiguity or risk in a work item.
+- The production environment monitors are going red (failing).
+- Support calls are increasing.
+- Management is suddenly very worried about an event or work product.
+- The rate of interruption (especially from management) is increasing
+- The team is abandoning process.
+
+Once these start manifesting then any team member can propose that the team is facing a DefCon situation. The team then activates DefCon based on a quorum vote.
+
+Hopefully the early warning system will allow them to avoid crisis.
+
+#### Crisis
+
+To handle crisis more effectively the team proposed an augmented process. These rules have will still be tested and refined with every consecutive crisis.
+
+These changes are all about increasing focus at the cost of the long term effectiveness, without being negligent.
+
+- Get visibility on the crisis
+  - Andon: Implement monitoring that with indicators that shows the current environment health. Focussed on the crisis.
+  - Kanban: Setup a board that is exclusively focussed on the crisis and other “must do” activities on the environment.
+- Instead of normal planning the team focusses more on triage.
+- Be very strict about limiting work in progress to one active task per person.
+- Run stand-ups more frequently (2 to 4 times per day).
+- Team lead (there is no full-time coach) becomes responsible for protecting the team by limiting access.
+- Team lead primarily manages communication to users and the rest of the organisation.
+- On the fun side. The team will print “Don’t Panic” signs. :-)
+
+## Conclusion
+
+To reiterate this is an experiment and the jury is still out. The goal is for the team to increase focus when a crisis occurs.
+
+### Side bar
+
+During recent conversations [@jacdevos](https://www.twitter.com/jacdevos) was telling me about the [Software G-Forces](https://www.youtube.com/watch?v=KIkUWG5ACFY) that Kent Beck spoke of in 2011. This came to mind during our retrospective and I explained the concept to the team. In short the concept is that the application of practices change dependent on the rate at which you deploy (G-Force). For example: _Branching impeded teams if they deploy daily, but becomes a necessity if they deploy yearly._
+
+This concept applies here to some extent.
+
+<!--kg-card-end: markdown-->

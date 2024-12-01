@@ -1,0 +1,73 @@
+---
+layout: post
+title: Switching from PC to Mac
+date: '2015-08-07 19:28:00'
+---
+
+In 2012 I switch over to using a MacBook Pro as my primary machine for development and everything else. The best part of the experience was that I get to play with a bunch of new toys.
+
+Every now and again people ask me about my configuration and what tips I may have to help them out.
+
+Here is a blog post with it all. I will continue tweaking this as I go along. This is a draft.
+
+### Terminal setup
+
+I will spend more time on this section in the future. Try to install everything with Cask and Brew.
+
+- Make ZSH your primary shell and setup oh-my-zsh
+- Also look at my dotfiles on [github](https://github.com/martincronje/dotfiles). It is a mess at the moment and being cleaned up.
+- Install Homebrew and Cask and install everything you need. Things to install is tmuxinator (gem), zsh, git, macvim, node, rvm, vagrant (cask), wget and whatever else you need.
+
+### My favourite OS X software:
+
+This list only includes the software I _actually_ use.
+
+- **Browser:** Chrome
+- **Communication:** Tweetbot, Airmail (even though I use gmail in the browser more), Skype (when hangouts don’t work), iMessage and FaceTime
+- **Collaboration:**
+  - Slack (Note that I don’t see it as a communication tool),
+  - Google Docs when we swarm on documents internally or with clients
+- **Music:** iTunes and Rdio (I cancelled my Rdio subscription when Apple Music launched)
+- **Writing:**
+  - Notes.app for garbage
+  - vim for real notes
+  - IA writer for Blogs (trying it, usually use vim)
+  - Office 2015 for documents (we are moving most things to Google Docs and markdown)
+- **Development:**
+  - AppCode for Objective-C (planning to learn swift soon). Xcode still features for storyboard editing, some debugging and workspace config.
+  - vim and tmux for most development where there is not compiler involved.
+  - I use Sublime Text occasionally. It is a love hate relationship. I feel more productive in vim but Sublime is more powerful. I should probably just get my vim config right ;-)
+  - Dash for help files
+  - Xamarin Studio is where I do the little .NET development that I still do.
+  - IntelliJ (and Android Studio) for Java.
+  - Reveal.app to browse view hierarchy in iOS applications
+- **Graphics** :
+  - Photoshop and illustrator for most day to day editing
+  - ColorPicker to… well pick colors
+  - xScope to measure pixels on screen, resize windows, etc
+- **Productivity:** I use Reminders.app just because it is simple and on my phone as well. Haven’t really tried to find anything else.
+- **Utilities:**
+  - Karabiner and Seil to bind CAPS to ESC and CMD (Long hold)
+  - Alfred with the Powerpack license is awesome (Bound to CMD+Space)
+  - Disk Inventory X and CleanMyMac to run the occasional clean-ups
+  - iTerm for terminal access (more about my terminal setup below)
+  - VMWare to boot into my Bootcamp partition (more about Windows below)
+  - VirtualPC for Vagrant
+  - moom is a great window manager
+- **Cloud storage:** I use DropBox for most of my needs. My company tried Google Drive, but it’s syncing is nowhere near on par with DropBox.
+
+### Windows setup
+
+With the release of Office 2016 on Mac, I rarely use windows these days with the exception of Visual Studio. Some tips for your setup to make jumping between the two OS’es a breeze.
+
+- Install KeyTweak to swap CTRL and CMD in Windows. That makes sure that CMD+C is copy, etc.
+- Install AutohotKey to bind CMD+Q to ALT+F4 and CMD+W to ALT+F4 to replicate app and window close behaviour of OS X.
+
+### General tips
+
+- Don’t try to share git or DropBox folders between Windows and OS X. They get very confused.
+- Don’t delete your Recovery Partition on OS X. Make sure you add it when setting up a new primary drive
+- Do make regular use of Time Machine backups
+- Don’t bother trying to backup Windows bootcamp. The only real way to do it, is with a VHD boot into boot camp. That is a massive pain to setup.
+- Do create an exFAT partition if you want to share R/W data between Windows and Mac
+<!--kg-card-end: markdown-->
