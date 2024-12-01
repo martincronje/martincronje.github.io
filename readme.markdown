@@ -1,6 +1,6 @@
 ---
 layout: post
-title: martincronje.readme
+title: martin.readme
 date: '2020-09-22 03:32:03'
 ---
 
@@ -14,10 +14,10 @@ The content of this evolving document is a reasonably up-to-date reflection on h
 
 As an engineer at heart, I'm passionate about coaching and leading teams to build well-crafted software that delights customers. In my 25 years, I've come to value;
 
-- _ **People above all:** _ The best software comes from people who have a sense of belonging and purpose and strive to lead balanced lifestyles.
+- **_People above all:_** The best software comes from people who have a sense of belonging and purpose and strive to lead balanced lifestyles.
 - **_Feedback loops:_** Short, closed feedback loops, implemented in systems, processes and teams, are the life-blood of continuous improvement. Learn from our experiences and adapt to the environment.
-- _ **Belonging and collaboration:** _ Our team is the culmination of each individual, so work hard on working together. Give everyone a voice because our diverse perspectives will help us build great software.
-- _ **Growth and mentorship:** _ Software is about learning! So, invest in our personal development and the growth of others.
+- **_Belonging and collaboration:_** Our team is the culmination of each individual, so work hard on working together. Give everyone a voice because our diverse perspectives will help us build great software.
+- **_Growth and mentorship:_** Software is about learning! So, invest in our personal development and the growth of others.
 - **_Simplicity:_** Maximise value. Focus on one thing. Work in small steps.
 - **_Excellence:_** Strive for pragmatism and effectiveness while nurturing our passion and creativity.
 
@@ -35,8 +35,8 @@ Above all, I work for the team, and I aim to do this by;
 It's vital that you have support when you need it most. Regardless of how busy my day is, I will drop whatever I can to be there for you.
 
 - **_Slack_** for regular interaction.
-- **_Text_** if it is urgent and **Phone** if critical.
-- I read _ **emails** _ irregularly.
+- **_Text_** if it is urgent and **_Phone_** if critical.
+- I read **_emails_** irregularly.
 
 I prefer talking face-to-face, and my calendar is usually either busy or blocked, **so ping me, and I <u>will</u> find a spot to chat.**
 
@@ -59,7 +59,7 @@ I love studying and learning about software development and the stories of softw
 ### General
 
 - [Systems Thinking](https://www.youtube.com/watch?v=OqEeIG8aPPk)
-- Spine Model _([Podcast](https://ryanripley.com/afh-090-walking-the-spine-model/) | [Wiki](https://spinemodel.info/documentation))_
+- Spine Model ([Podcast](https://ryanripley.com/afh-090-walking-the-spine-model/) and [Wiki](https://spinemodel.info/documentation))
 
 ### Engineering
 
