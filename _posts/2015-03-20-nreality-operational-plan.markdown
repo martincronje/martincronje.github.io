@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: nReality's operational plan
 date: '2015-03-20 15:18:00'
 ---

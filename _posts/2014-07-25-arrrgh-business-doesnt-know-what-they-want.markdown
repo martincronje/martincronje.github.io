@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Arrrgh, business doesn't know what they want!
 date: '2014-07-25 06:09:00'
 ---

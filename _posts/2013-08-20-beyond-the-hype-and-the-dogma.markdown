@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Beyond the hype and the dogma (of agile)
 date: '2013-08-20 09:00:00'
 ---

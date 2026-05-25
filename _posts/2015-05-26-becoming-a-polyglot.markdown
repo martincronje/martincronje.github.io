@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Why I’ve become a polyglot...
 date: '2015-05-26 19:32:00'
 ---

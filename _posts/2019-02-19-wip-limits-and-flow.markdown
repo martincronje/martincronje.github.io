@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The importance of WIP limits
 date: '2019-02-19 21:25:56'
 ---

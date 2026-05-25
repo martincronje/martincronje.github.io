@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: DefCon! When things go wrong
 date: '2015-05-21 06:37:00'
 ---

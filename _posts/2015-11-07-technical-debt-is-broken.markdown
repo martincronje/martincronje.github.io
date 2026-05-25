@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: The Technical Debt metaphor is broken
 date: '2015-11-07 11:43:28'
 ---

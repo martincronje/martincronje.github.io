@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Virtual coaching circles
 date: '2015-08-12 17:47:00'
 ---

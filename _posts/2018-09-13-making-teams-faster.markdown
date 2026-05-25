@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Making teams faster
 date: '2018-09-13 18:07:42'
 ---
