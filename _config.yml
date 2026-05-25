@@ -9,7 +9,7 @@ linkedin_username: mcronje
 github_username: martincronje
 
 #theme: minima
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@v2.5.2
 
 minima:
   skin: dark
@@ -21,3 +21,4 @@ header_pages:
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
