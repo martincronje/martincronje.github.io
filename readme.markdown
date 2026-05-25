@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: single
 title: martin.readme
-date: '2020-09-22 03:32:03'
 permalink: /readme
+author_profile: false
 ---
 
 ## Why?

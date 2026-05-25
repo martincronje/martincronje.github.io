@@ -1,24 +1,51 @@
 title: martin cronjé
 email: martin@cron.je
-description: >- # this means to ignore newlines until "baseurl:"
-  My experiences in leading, building and transforming teams to deliver well-crafted software.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://martincronje.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: My experiences in leading, building and transforming teams to deliver well-crafted software.
+baseurl: ""
+url: "https://cron.je"
 
-linkedin_username: mcronje
-github_username: martincronje
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 
-#theme: minima
-remote_theme: jekyll/minima@v2.5.2
+minimal_mistakes_skin: mint
 
-minima:
-  skin: dark
-
-#theme: minimal-mistakes-jekyll
-
-header_pages:
-  index
+author:
+  name: Martin Cronjé
+  bio: Senior Director of Engineering at Canva. I write about engineering leadership, teams, and software.
+  links:
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/mcronje
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/martincronje
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      share: false
+      related: false
+      show_date: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+pagination:
+  enabled: true
+  per_page: 10
+
+header_pages:
+  - readme.markdown
