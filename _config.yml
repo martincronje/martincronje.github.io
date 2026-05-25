@@ -9,7 +9,6 @@ remote_theme: mmistakes/minimal-mistakes@4.26.2
 minimal_mistakes_skin: mint
 
 author:
-  name: Martin Cronjé
   bio: My experiences in leading, building and transforming teams to deliver well-crafted software.
   links:
     - label: LinkedIn
@@ -31,7 +30,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       share: false
       related: false
@@ -41,7 +40,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 pagination:
   enabled: true
