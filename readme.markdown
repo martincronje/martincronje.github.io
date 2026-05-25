@@ -13,23 +13,36 @@ The content of this evolving document is a reasonably up-to-date reflection on h
 
 ## Things I value
 
-As an engineer at heart, I'm passionate about coaching and leading teams to build well-crafted software that delights customers. In my 25 years, I've come to value;
-
-- **_People above all:_** The best software comes from people who have a sense of belonging and purpose and strive to lead balanced lifestyles.
-- **_Feedback loops:_** Short, closed feedback loops, implemented in systems, processes and teams, are the life-blood of continuous improvement. Learn from our experiences and adapt to the environment.
-- **_Belonging and collaboration:_** Our team is the culmination of each individual, so work hard on working together. Give everyone a voice because our diverse perspectives will help us build great software.
-- **_Growth and mentorship:_** Software is about learning! So, invest in our personal development and the growth of others.
-- **_Simplicity:_** Maximise value. Focus on one thing. Work in small steps.
+- **_People first:_** Great products come from people with belonging, purpose and balance. Protect that and everything else follows.
+- **_Short feedback loops:_** In systems, in teams, in product. Learn, adapt, repeat.
+- **_Product thinking:_** Teams who understand the customer and the opportunities build better products.
+- **_Alignment and context:_** Invest in shared understanding upfront. Teams that align deeply move faster in the long run.
+- **_Simplicity:_** One thing at a time. Small steps. Maximise value, minimise waste.
+- **_Growth:_** Everyone teaches, everyone learns. Mentoring is how teams compound.
 - **_Excellence:_** Strive for pragmatism and effectiveness while nurturing our passion and creativity.
 
-## My goal
+## Working with me as a peer
 
-Above all, I work for the team, and I aim to do this by;
+- **Alignment** - debate deeply behind closed doors, be unified externally.
+- **Trust and vulnerability** - the best teams I've been on are ones where we trust each other, have fun, and resolve conflicts.
+- **Shared ownership** - we own the product together. Individual accountability, collective responsibility.
 
-- Providing alignment to vision, strategy, purpose, objectives and other groups,
-- Supporting the team by creating an environment where they do their best work,
-- Helping explore ideas, identify improvements and eliminate waste, and
-- Mentoring, coaching and teaching the team as we grow together.
+## Working with me as your manager
+
+Above all, I work for the team.
+
+- **Achievement** - helping you achieve more than you thought you could.
+- **Context** - providing alignment to vision, strategy, purpose, objectives and other groups.
+- **Environment** - creating an environment where you do your best work.
+- **Improvement** - helping explore ideas, identify improvements and eliminate waste.
+- **Growth** - mentoring, coaching and teaching as we grow together.
+
+## What will frustrate me
+
+- **Blame** - focusing on who's at fault rather than what we do about it.
+- **Low accountability** - not owning your problems, not showing up, not raising issues until they're someone else's problem.
+- **Forced alignment** - being asked to align on something I haven't had the chance to genuinely engage with.
+- **Misalignment** - direction without shared understanding, when alignment is skipped and decisions are handed down.
 
 ## Getting hold of me
 
