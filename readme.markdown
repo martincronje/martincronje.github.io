@@ -29,8 +29,6 @@ The content of this evolving document is a reasonably up-to-date reflection on h
 
 ## Working with me as your manager
 
-Above all, I work for the team.
-
 - **Achievement** - helping you achieve more than you thought you could.
 - **Context** - providing alignment to vision, strategy, purpose, objectives and other groups.
 - **Environment** - creating an environment where you do your best work.
